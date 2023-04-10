@@ -1,0 +1,18 @@
+/* Estilos adicionais para personalização */
+.rdv_page {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.rdv_page p {
+    margin: 1em 0;
+}
+.rdv_page h1, .rdv_page h2, .rdv_page h3 {
+    margin: 1.5em 0 0.5em;
+}
+.rdv_page a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
