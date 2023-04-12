@@ -1,18 +1,32 @@
-/* Estilos adicionais para personalização */
-.rdv_page {
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    line-height: 1.5;
-}
-.rdv_page p {
-    margin: 1em 0;
-}
-.rdv_page h1, .rdv_page h2, .rdv_page h3 {
-    margin: 1.5em 0 0.5em;
-}
-.rdv_page a {
-    color: white;
-    text-decoration: none;
-    border-bottom: 1px solid white;
-}
+body {
+      background-color: black;
+      color: white;
+    }
+    input[type=submit] {
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 10px;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin: 5px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
